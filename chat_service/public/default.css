@@ -1,0 +1,129 @@
+* {
+    font-family: Arial;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 3px solid darkblue;
+    width: 600px;
+    margin: 30px auto;
+    height: 475px;
+    background-color: lightslategray;
+}
+
+.header {
+    background-color: darkblue;
+    padding: 15px;
+    color: yellowgreen;
+    text-align: center;
+}
+
+.userBox {
+    width: 30%;
+    background-color: darkblue;
+    overflow-y: auto;
+    height: 413px;
+    padding: 20px;
+    color: white;
+    float: left;
+}
+
+.userActive {
+    margin-top: 15px;
+}
+
+#conversation {
+    float: right;
+    width: 70%;
+    height: 300px;
+    overflow-y: auto;
+    background-color: white;
+}
+
+    #conversation p b {
+        display: block;
+        width: 300px;
+        float: right;
+        margin: 10px 0px 2px;
+        font-size: 15px;
+    }
+
+    #conversation p span {
+        background-color: #0084FF;
+        display: block;
+        width: 280px;
+        padding: 15px;
+        float: right;
+        color: white;
+        position: relative;
+        margin: 0px 20px 10px 0px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 20px -10px black;
+    }
+
+    #conversation img {
+        width: 280px;
+        display: block;
+        float: right;
+        background-color: white;
+    }
+
+    #conversation a {
+        width: 280px;
+        display: block;
+        float: right;
+        margin-right: 20px;
+    }
+
+.bottom-part {
+    float: right;
+    width: 70%;
+}
+
+#dropZone {
+    background-color: lightgreen;
+    border: 1px dashed;
+    padding: 15px 0;
+    text-align: center;
+    margin: 10px 10px;
+    width: 310px;
+    float: right;
+}
+
+#data {
+    height: 30px;
+    width: 200px;
+    float: right;
+    margin-right: 10px;
+}
+
+#datasend {
+    height: 30px;
+    width: 100px;
+    background-color: darkblue;
+    border: 0px;
+    color: white;
+    float: right;
+    margin-right: 10px;
+}
+
+#imagefile, #otherfile {
+    display: none;
+}
+
+label {
+    background-color: darkorange;
+    padding: 12px 0px;
+    font-size: 10px;
+    display: block;
+    margin: 10px 0px 17px;
+    text-align: center;
+}
+
+.attachimage {
+    height: 50px;
+    width: 80px;
+    margin: 0px 0px 0px 10px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Chat application</title>
+     <link href="default.css" rel="stylesheet"/>
+</head><body>
+    <div class="container">
+        <h2 class="header">CHAT APPLICATION</h2>
+        <div class="userBox">
+            <h3 style="color :yellowgreen;">Active Users :</h3>
+            <div id="users"> </div>
+        </div>        
+        <div id="conversation" ></div>
+        <div class="bottom-part">
+            <div id="dropZone">Drop your file here....</div>            
+            <button id="datasend" type="button" >Send</button>
+            <input id="data" type="text" />        
+                    <div class="attachimage">
+                    <label for="imagefile"> 
+                        Attach Image
+                        <input type="file" id="imagefile"/>
+                    </label>                    
+                    <label for="otherfile"> Attach File 
+                        <input type="file" id="otherfile" />
+                    </label>
+                </div>
+        </div>
+    </div>
+     <script src="jquery.js"></script>
+   <script src="socket.io.js"></script>
+    <script src="default.js"></script>
+</body></html>
+
+
+
+
+
+
+
+
+
+
+
